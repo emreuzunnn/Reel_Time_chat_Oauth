@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model kisiler
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head><title></title></head>
+    <body>
+     
+
+
+
+    <div class="form-container">
+        <form asp-action="giris" asp-controller="Home" method="post">
+            <div class="form-group">
+                <label for="ver">Kullanıcı Adı</label>
+                <input type="text" name="kad" id="ver" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="pass">Şifre</label>
+                <input type="password" name="Pass" id="pass" class="form-control" />
+            </div>
+            <div class="form-group">
+                <a href="@Url.Action("kayıtol", "Home")" class="btn btn-link">Kayıt Ol</a>
+            </div>
+            <button type="submit" name="bas" class="btn btn-primary btn-block">Giriş</button>
+        </form>
+
+
+
+        
+    </div>
+    <p>
+        <a href="@Url.Action("Login", "Google")">Google ile giriş yap</a>
+    </p>
+
+
+        
+    </body>
+</html>

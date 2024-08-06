@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model kisiler
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head><title></title></head>
+    <body>
+      
+    <div class="form-container">
+        <form asp-action="kullanıcıekle" asp-controller="Home" method="post">
+            <div class="form-group">
+                <label for="kad">Kullanıcı adı</label>
+                <input type="text" id="kad" name="kad" class="form-control" placeholder="Kullanıcı adı Benzersiz olmalıdır" />
+            </div>
+            <div class="form-group">
+                <label for="pass">Şifre</label>
+                <input type="password" id="pass" name="Pass" class="form-control" />
+            </div>
+            <button type="submit" name="name" class="btn btn-primary btn-block">Giriş</button>
+        </form>
+    </div>
+
+
+    </body>
+</html>

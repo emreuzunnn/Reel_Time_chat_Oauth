@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\uzun3\\Desktop\\Reeltimechat-main\\Reeltimechat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95708678-FC5E-4AA4-85DC-E8216409508E}|Reeltimechat\\Reeltimechat.csproj|c:\\users\\uzun3\\desktop\\reeltimechat-main\\reeltimechat\\reeltimechat\\controllers\\datacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95708678-FC5E-4AA4-85DC-E8216409508E}|Reeltimechat\\Reeltimechat.csproj|solutionrelative:reeltimechat\\controllers\\datacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95708678-FC5E-4AA4-85DC-E8216409508E}|Reeltimechat\\Reeltimechat.csproj|c:\\users\\uzun3\\desktop\\reeltimechat-main\\reeltimechat\\reeltimechat\\controllers\\mesajlarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95708678-FC5E-4AA4-85DC-E8216409508E}|Reeltimechat\\Reeltimechat.csproj|solutionrelative:reeltimechat\\controllers\\mesajlarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95708678-FC5E-4AA4-85DC-E8216409508E}|Reeltimechat\\Reeltimechat.csproj|c:\\users\\uzun3\\desktop\\reeltimechat-main\\reeltimechat\\reeltimechat\\controllers\\googlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95708678-FC5E-4AA4-85DC-E8216409508E}|Reeltimechat\\Reeltimechat.csproj|solutionrelative:reeltimechat\\controllers\\googlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95708678-FC5E-4AA4-85DC-E8216409508E}|Reeltimechat\\Reeltimechat.csproj|c:\\users\\uzun3\\desktop\\reeltimechat-main\\reeltimechat\\reeltimechat\\views\\mesajlar\\mesajlar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95708678-FC5E-4AA4-85DC-E8216409508E}|Reeltimechat\\Reeltimechat.csproj|solutionrelative:reeltimechat\\views\\mesajlar\\mesajlar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95708678-FC5E-4AA4-85DC-E8216409508E}|Reeltimechat\\Reeltimechat.csproj|c:\\users\\uzun3\\desktop\\reeltimechat-main\\reeltimechat\\reeltimechat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95708678-FC5E-4AA4-85DC-E8216409508E}|Reeltimechat\\Reeltimechat.csproj|solutionrelative:reeltimechat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95708678-FC5E-4AA4-85DC-E8216409508E}|Reeltimechat\\Reeltimechat.csproj|c:\\users\\uzun3\\desktop\\reeltimechat-main\\reeltimechat\\reeltimechat\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95708678-FC5E-4AA4-85DC-E8216409508E}|Reeltimechat\\Reeltimechat.csproj|solutionrelative:reeltimechat\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dataController.cs",
+              "DocumentMoniker": "C:\\Users\\uzun3\\Desktop\\Reeltimechat-main\\Reeltimechat\\Reeltimechat\\Controllers\\dataController.cs",
+              "RelativeDocumentMoniker": "Reeltimechat\\Controllers\\dataController.cs",
+              "ToolTip": "C:\\Users\\uzun3\\Desktop\\Reeltimechat-main\\Reeltimechat\\Reeltimechat\\Controllers\\dataController.cs",
+              "RelativeToolTip": "Reeltimechat\\Controllers\\dataController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAcwDQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T13:07:47.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mesajlarController.cs",
+              "DocumentMoniker": "C:\\Users\\uzun3\\Desktop\\Reeltimechat-main\\Reeltimechat\\Reeltimechat\\Controllers\\mesajlarController.cs",
+              "RelativeDocumentMoniker": "Reeltimechat\\Controllers\\mesajlarController.cs",
+              "ToolTip": "C:\\Users\\uzun3\\Desktop\\Reeltimechat-main\\Reeltimechat\\Reeltimechat\\Controllers\\mesajlarController.cs",
+              "RelativeToolTip": "Reeltimechat\\Controllers\\mesajlarController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T13:06:47.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\uzun3\\Desktop\\Reeltimechat-main\\Reeltimechat\\Reeltimechat\\Program.cs",
+              "RelativeDocumentMoniker": "Reeltimechat\\Program.cs",
+              "ToolTip": "C:\\Users\\uzun3\\Desktop\\Reeltimechat-main\\Reeltimechat\\Reeltimechat\\Program.cs",
+              "RelativeToolTip": "Reeltimechat\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T12:56:34.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GoogleController.cs",
+              "DocumentMoniker": "C:\\Users\\uzun3\\Desktop\\Reeltimechat-main\\Reeltimechat\\Reeltimechat\\Controllers\\GoogleController.cs",
+              "RelativeDocumentMoniker": "Reeltimechat\\Controllers\\GoogleController.cs",
+              "ToolTip": "C:\\Users\\uzun3\\Desktop\\Reeltimechat-main\\Reeltimechat\\Reeltimechat\\Controllers\\GoogleController.cs",
+              "RelativeToolTip": "Reeltimechat\\Controllers\\GoogleController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwB4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T12:54:41.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\uzun3\\Desktop\\Reeltimechat-main\\Reeltimechat\\Reeltimechat\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Reeltimechat\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\uzun3\\Desktop\\Reeltimechat-main\\Reeltimechat\\Reeltimechat\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Reeltimechat\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T12:53:51.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "mesajlar.cshtml",
+              "DocumentMoniker": "C:\\Users\\uzun3\\Desktop\\Reeltimechat-main\\Reeltimechat\\Reeltimechat\\Views\\mesajlar\\mesajlar.cshtml",
+              "RelativeDocumentMoniker": "Reeltimechat\\Views\\mesajlar\\mesajlar.cshtml",
+              "ToolTip": "C:\\Users\\uzun3\\Desktop\\Reeltimechat-main\\Reeltimechat\\Reeltimechat\\Views\\mesajlar\\mesajlar.cshtml",
+              "RelativeToolTip": "Reeltimechat\\Views\\mesajlar\\mesajlar.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAADwvyEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T12:53:02.249Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

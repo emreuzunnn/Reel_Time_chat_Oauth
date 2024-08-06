@@ -1,0 +1,107 @@
+﻿
+
+
+
+@model birles
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>@ViewData["kullanıcı"]   </title>
+</head>
+    <body>
+    <h2>@TempData["kullanıcı"] </h2>
+   
+
+
+    <div class="form-container">
+        <form id="frm" asp-action="mesajat" asp-controller="mesajlar" method="post">
+            <div class="form-group">
+                <label for="kad">Mesaj atılacak kişinin Kullanıcı adı</label>
+                <input type="text" name="message.kad" id="kad" class="form-control" placeholder="Kullanıcı adı" />
+            </div>
+            <div class="form-group">
+                <label for="mesaj">Mesaj</label>
+                <input type="text" name="message.mesaj" id="mesaj" class="form-control" placeholder="Mesajınızı yazın" />
+            </div>
+            <div class="form-group">
+                <input type="submit" name="buton" value="Send" class="btn btn-primary btn-block" />
+            </div>
+        </form>
+        <ul id="liste">
+
+            @{
+                if(Model != null)
+                {
+                    foreach (var it in Model.lista)
+                    {
+                        <li>
+                            Gönderen Kişi @it.gonderen Mesaj:  @it.mesaj
+
+                        </li>
+                    }
+                }
+            }
+            
+
+        </ul>
+
+
+
+
+    @section Script {
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const frm = document.getElementById("frm");
+                const mesaj = document.getElementById("mesaj");
+                const kad = document.getElementById("kad");
+                const mesajlistesi = document.getElementById("liste");
+
+                const conn = new signalR.HubConnectionBuilder()
+                    .withUrl("/ChatHub")
+                    .build();
+
+                frm.onsubmit = function (event) {
+                    event.preventDefault();
+                    const kullanıcıAdı = "@Reeltimechat.Controllers.HomeController.kullanıcıadı";
+                   
+                    const mesajveri = mesaj.value;
+                    const kadDeğeri = kad.value;
+                    console.log(kullanıcıAdı);
+                    console.log(mesajveri); console.log(kadDeğeri);
+                    conn.invoke("message_send", kullanıcıAdı, kadDeğeri, mesajveri)
+                        .catch(function (err) {
+                          
+                            console.log(err);
+                        });
+                };
+                
+
+                conn.on("yenimesaj", function (kullanıcıAdı, kadDeğeri, mesajveri) {
+                    const li = document.createElement("li"); console.log(li);
+                    li.textContent = ` Mesaj atan =${kullanıcıAdı}  ${mesajveri}`;
+
+                    li.textContent = `${kullanıcıAdı} ${kadDeğeri} ${mesajveri}`;
+                    console.log(kullanıcıAdı + " " + kadDeğeri)
+                    if ("@Reeltimechat.Controllers.HomeController.kullanıcıadı" == kadDeğeri) {
+                        mesajlistesi.prepend(li);
+                        console.log("emre");
+                    }
+                     
+                    
+                    
+                });
+
+                conn.start().catch(function (err) {
+                
+                    console.log(err);
+                   
+                });
+            });
+        </script>
+    }
+
+
+
+
+
+    </body>
+</html>
